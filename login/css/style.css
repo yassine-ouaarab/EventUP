@@ -1,0 +1,138 @@
+/* Form */
+.form {
+  position: absolute;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 300px;
+  margin-top: 68px;
+  margin-left: 36%;
+  padding: 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+}
+.form .thumbnail {
+  background: #EF3B3A;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 18px;
+  padding: 50px 30px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: border-box;
+}
+.form .thumbnail img {
+  display: block;
+  width: 100%;
+}
+.form input {
+  outline: 0;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  padding-left: 30px;
+  border: none;
+  border-bottom: #000000 0.5px solid;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Century Gothic;
+}
+.form button{
+  outline: 0;
+  background: #EF3B3A;
+  width: 32%;
+  border: 0;
+  border-radius: 40px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 15px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Cabin;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #EF3B3A;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+
+.falsepass
+{
+  color:#EF3B3A;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-family: Trebuchet MS;
+  display: none;
+}
+
+#usr{margin-top: 16px;position: absolute;}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+/* END Form */
+/* Demo Purposes */
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background-image: url("../../img/logimg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 1378px 830px;*/
+}
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #00000083
+}
+
